@@ -1,0 +1,35 @@
+****HTML NOTLAR****
+heading : 6 tane heading vardır gitgide küçülür
+<h1></h1>
+paragraphs <p> </p>
+<br> alta geçirme satır atlama
+<hr> çizgi ekleme -----------
+<!------> yorum yaazma
+ctrl ö yorum yapm
+""Formating Elementler"
+<b></b> yazıyı kalınlaştırma
+<strong></strong> yazıyı kalınlaştırır anlamını arttırır
+<i></i> italik yapan 
+<em></em> anlamsal italik yapar
+<small></small> küçültür
+<sup></sup> x i üslü yazar
+<sub></sub> 
+<mark></mark> üstünü çizme
+<ins></ins> cümlenin altını çizme
+<del></del> üstünü çizme karalama
+""html listeler""
+sıralı liste :  <ol> </ol>   .<li></li> sıralralın başına
+sırasız liste:<ul></ul>
+tanımlama listeleri : <dl></dl>
+thead tr th
+tbody tr td
+**Html ıd : bi tane element özelleştirme #ıd {}
+html class name : çok tane element özelleştirme .class{}
+block level : tüm satırı etkieyen h1 p 
+ınlıne element : span gibi
+
+div:<div> blok element paragrafın başına yazılırsa tüm paragrafı kapsar gruplandırma yapar
+span:<span> inline 
+foto kullnımı :<img src="./" alt ="fotonun içeriği ">
+html link <a> linki başka sekmede acmak için target="_blank"
+

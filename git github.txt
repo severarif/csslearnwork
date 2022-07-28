@@ -1,0 +1,31 @@
+GİT KODLARI: 
+
+git init : kodu baslatma(.git klasörü oluşturur) local
+git clone *url* : direk klasör oluşur yapılan değişikler görülür uzaktan çekme
+git help : tüm komutları getirir
+git status : son durumu gösterir
+***WORKİNG DİRECTORY : GEÇİÇİ, GİT İN TAKİBİNE GİRMEMİŞ
+*** STAGİNG AREA (AREA) : YARI GEÇİCİ , 
+***REPOSİTORY : KALICI
+dosyayı git e eklemek için ( takip etmek için ) git add 
+dosya 2. aşamaya geçer  3. aşamaya geçsin diye git commit
+git add  *dosyanın adı*
+git add. b *bütün dosyaları alır*
+3.aşamadan geçmişi görmek için git log
+2. aşamadan 1.aşamaya getirmek için git rm cached
+***git commit opsiyonlar***
+-m koda mesaj bırakmak için "***"
+-am  hem git Add hem git M (mesaj bırakma)
+-amend commit mesajını değiştirmek için
+git checkout 3. aşamadan 1. aşamaya
+github daki klasörü git ine almak için git clone * url*
+olan değişiklikleri almak içi git pull 
+git push git ini githuba atmak için
+git remote add origin *url*  kendi pc oluşturduğun şeyi remote atma
+git fetch ?
+pull = fetch +merge
+ilk olarak pull  la yeni şeyleri pc ye getir sonra işlmelere devam et
+*ilk olarak şirketin repounu clone la https bilgisiyle
+pull bi nevi güncelleme
+git init git reposu oluşturur
+remote add. şirketle bağlantı kur
