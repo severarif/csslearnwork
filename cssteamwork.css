@@ -1,0 +1,19 @@
+#div1{
+    background-color: black;
+    color: white;
+
+}
+#span1{
+     background-color: black;
+    color:red;
+    font-family: monospace;
+    padding-right: 50px;
+}
+
+.link{
+background-color: black;
+color: aquamarine;
+word-spacing: 500px;
+text-decoration: none;
+
+}

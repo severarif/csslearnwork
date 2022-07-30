@@ -1,0 +1,10 @@
+***CSS***
+p { color :blue;} şeklinde yazılır bütün p leri etkiler
+inline da yapılan değişiklik external veya internal le değiştirirlemez
+internal ve external hangisi önce yazıldıysa o üstündür
+padding:  iç boşluk
+border : cizgi
+margin: dışardan boşluk
+* işareti herşeyi seçeer
+/*  */ yoruma alır
+inherit orta tutar 
