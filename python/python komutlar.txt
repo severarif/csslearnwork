@@ -1,0 +1,8 @@
+print()
+tam sayı int() integer
+dizi str() string
+reel sayılar float()
+# yorum yazmak için kullanılır
+round() yuvarlama  
+type() tipini üğrenme
+\n aşağı indirme
