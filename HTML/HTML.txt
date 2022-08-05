@@ -32,4 +32,35 @@ div:<div> blok element paragrafın başına yazılırsa tüm paragrafı kapsar g
 span:<span> inline 
 foto kullnımı :<img src="./" alt ="fotonun içeriği ">
 html link <a> linki başka sekmede acmak için target="_blank"
+html+
+<form> kullanıcıdan bilgi talebi için kullanılır isim : vb.
+<form action >
+for ile ıd aynı olmalı
 
+placeholder:soru kutucuğunun içinde görünür
+value: direk gelir yazmana gerek kalmaz ve on off yerine erkek kadın gösterir
+
+"""input type""""
+input type text:
+input type password:
+input type radio: 2 seçenekten 1 ini seçebilirsin erkek kadın nameleri aynı olmalı
+input type checkbox: isteiğin kadar seçebilirsin musait olduğu zamanlar
+ input typereset bilgileri resetler
+input type number: sayı girer
+input type search:
+input type color:
+input type date:
+input type email:
+imput type file:
+input type tel : pattern[0-9]{3}-[0-9]{3}}-[0-9]{2} 3 3 2 şeklinde yazar
+
+
+ minlength-maxlength: karakter sınırlayıcı
+required: zorunlu alan 
+checked seçili halde gelir
+<select> alt tarafa doğru seçilen liste
+<optgroup> 
+<textarea> metin alanı belirler     style resize none yap sabitle
+<datalist> selecte benzer id ile list ismi aynı olmalı
+<fieldset>
+SEMANTİK ELEMENTLER*** (KULLANILMASI GERKEN ELEMENTLER)

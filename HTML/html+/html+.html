@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div>  
+<h1>Welcome</h1>
+    <form action="result.html" method="get">
+<label for="name">Adınızı Giriniz</label>
+<input type="text" name="isim" id="name"
+placeholder="isminizi giriniz">
+<br><br>
+<label for="lname">soyadınızı giriniz</label>
+<input type="text" name="soyad" id="lname" placeholder="soyadınızı girin" required>
+
+</div>
+<div>
+<label for="sifre">parolanızı giriniz</label>
+<input type="password" name="şifre" id="sifre" placeholder="şifrenizi girin">
+
+</div>
+
+<div>
+<p>cinsiyet:</p>
+<label for="gender1">erkek</label>
+<input type="radio" name="cinsiyet" id="gender1" value="erkek">
+<label for="">kadın</label>
+<input type="radio" name="cinsiyet" id="gender2" value="kadın">
+
+</div>
+<div>
+<p>Favori hayvanınızı seçin:</p>
+<input type="checkbox" name="favori hayvan" id="panda" value="panda">
+<label for="panda">Panda</label>
+<input type="checkbox" name="favori hayvan2" id="balık" value="balık">
+<label for="balık">balık</label>
+</div>
+<div>
+<label for="age">Yaş</label>
+<input type="number" name="girilen yaş" id="age" step="5" min="18" max="40">
+</div>
+
+<label for="şeker">Hangi tatliyı istersiniz:</label>
+<select name="tatlı" id="şeker">
+<option value="sütlaç">sütlaç</option>
+<option value="aşure">aşure</option>
+<option value="puding">puding</option>
+
+</select>
+<label for="şeker">Hangi tatliyı istersiniz:</label>
+<select name="tatlı" id="şeker2">
+    <optgroup label="sütlü tatlılar">
+<option value="sütlaç">sütlaç</option>
+<option value="aşure">aşure</option>
+<option value="puding">puding</option>
+</optgroup>
+<optgroup label="şerbetli tatlılar" >
+<option value="baklava">baklava</option>
+<option value="künefe">künefe</option>
+<option value="katmer">katmer</option>
+<option value="kadayıf">kadayıf</option>
+
+</optgroup>
+</select>
+
+<br><br><br>
+
+
+
+<label for="yorum">yorum</label>
+<br>
+<textarea name="girilen yorum" id="yorum"></textarea>
+
+
+
+<label for="input-browser">browsers</label>
+<input type="text" name="kullanılan browser" id="input browser" list="browsers">
+<datalist id="browsers">
+<option value="firefox">firefox</option>
+<option value="chrome">chrome</option>
+<option value="safari">safari</option>
+<option value="brave">brave</option>
+
+
+<div>
+<fieldset>
+<legend>Kişisel Bilgiler</legend>
+<label for="fname">isim</label>
+<input type="text" name="isim" id="fname">
+<br>
+<label for="lname">soyisim</label>
+<input type="text" name="soyisim" id="lname">
+
+
+</fieldset>
+
+
+
+
+
+
+</div>
+
+
+
+</datalist>
+
+
+
+<input type="submit" value="gönder">
+
+<input type="reset" value="sıfırla">
+    </form>
+</body>
+</html>
