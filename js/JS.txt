@@ -1,0 +1,22 @@
+<script src="myjavascript.js"><script> bpdy veya heade eklenebiirama body sonu tercih edilir
+/* */ yoruma alma
+var x=5;
+var y=7;
+y=x;
+x=5 y=5 
+değerler atıyor
+var x=y=z=42
+önce z y x sırasıyla 42 olur
+***
+isimlendirirken ilk karakter harf olmamalıdolar hariç özel karakterler gelemez aradaboşluk bırakılmaz tre çizgisi olmaz _ olabilir js kendi kavramlarını isim verirken kullanılmaz
+
+
+*LET vs VAR vs CONST*
+Scope : bizim etki alanımız  sınırı belirler
+global scope: fonksiyon içinde konumlandırılmadıysa global scope
+function scope: fonksiyon dışına etki etmez
+block scope :
+let daha sınırlıdır
+constun değeri değişmez yeni adres atanmaz
+stack : en son giren ilk çıkar ilk giren en son çıkar
+heap :  
